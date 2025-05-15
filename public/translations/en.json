@@ -1,130 +1,133 @@
 {
-    "general": {
-        "name": "Caio Uehara",
-        "headline": "Short headline about yourself",
-        "about": [
-            "Hey there! 👋",
-            "This should be a first short paragraph about yourself. Tell us something about yourself, your education or your career.",
-            "And why not adding a second paragraph? Then you can tell us more about your hobbies and your life. Some people will read it and be happy to get to know you a little better."
-        ],
-        "socials": {
-            "email": "example@mail.com",
-            "linkedin": "https://www.linkedin.com/",
-            "github": "https://github.com/"
-        }
+  "general": {
+    "name": "Caio Uehara Martins",
+    "headline": "Assistant Software Quality Assurance at Foretellix",
+    "subheadline": "Applied AI Research at InReDD-USP",
+    "subsubheadline": "Undergraduate at Univerisidade de São Paulo (DCM-USP-RP)",
+    "about": [
+      "I’m Caio Uehara Martins, a Brazilian computer-science undergraduate at the University of São Paulo (USP – Ribeirão Preto, class of 2026) who loves turning code into real-world impact. My work lives where software engineering meets applied AI for healthcare: I build and validate neural-network pipelines for digital dentistry with the InReDD research group, and our clinical-decision tool was showcased at SBCAS 2024.",
+      "Beyond the lab, I sharpen quality-engineering skills as an SW QA Assistant at Foretellix, stress-testing AD/ADAS platforms to keep autonomous-driving software safe. I’m also the founder and president of OctoBit Jr., USP’s computer-science junior enterprise, where I lead multidisciplinary teams, scope client projects, and model agile processes end-to-end. Earlier, as a Startup Manager intern at FEA Angels, I bridged investors and early-stage startups through data-driven deal-flow analysis.",
+      "Technically, I’m fluent in React / Next.js, TypeScript, Python, Java, C++, Docker and Linux. My academic passions span computer vision, image processing and numerical analysis.",
+      "When I’m not coding, you’ll likely find me enjoying music and my hobbie is deejaying eletronic songs. Beside that I engaje on production of festival, drawing on experiences that taught me resilience, logistics and the thrill of crafting unforgettable user experiences. Having lived and studied in London and Vancouver, I’m comfortable in multicultural teams and speak English (C1) and Spanish (B1)."
+    ],
+    "socials": {
+      "email": "caio.uehara@usp.br",
+      "linkedin": "https://www.linkedin.com/in/caio-uehara-martins",
+      "github": "https://github.com/caiouehara"
+    }
+  },
+  "experiences": [
+    {
+      "title": "SW QA / Product-Validation Assistant",
+      "company": "Foretellix",
+      "href": "https://www.foretellix.com",
+      "startDate": "10/2023",
+      "endDate": "CURRENT",
+      "description": "Stress-test AD/ADAS simulation scenarios, design automated regression suites and analyze safety-critical KPIs for autonomous-driving stacks.",
+      "logo": "/logos/foretellix.png",
+      "skills": ["Python", "CI/CD", "Linux", "Quality Engineering", "Simulation"]
     },
-    "experiences": [
-        {
-            "title": "Position Title",
-            "company": "Company Name",
-            "href": "",
-            "startDate": "10/2023",
-            "endDate": "CURRENT",
-            "description": "This is a short description of your role.",
-            "logo": "/logos/vercel-white.png",
-            "skills": ["Skill 1", "Skill 2", "Skill 3"]
-        },
-        {
-            "title": "Position Title",
-            "company": "Company Name",
-            "href": "",
-            "startDate": "01/2023",
-            "endDate": "09/2023",
-            "description": "This is a short description of your role.",
-            "logo": "/logos/vercel-white.png",
-            "skills": ["Skill 1", "Skill 2"]
-        },
-        {
-            "title": "Position Title",
-            "company": "Company Name",
-            "href": "",
-            "startDate": "01/2022",
-            "endDate": "12/2022",
-            "description": "This is a short description of your role.",
-            "logo": "/logos/vercel-white.png",
-            "skills": ["Skill 1"]
-        },
-        {
-            "title": "Position Title",
-            "company": "Company Name",
-            "href": "",
-            "startDate": "01/2021",
-            "endDate": "12/2021",
-            "description": "This is a short description of your role.",
-            "logo": "/logos/vercel-white.png",
-            "skills": ["Skill 1", "Skill 2", "Skill 3"]
-        }
-    ],
-    "education": [
-        {
-            "subject": "University Subject",
-            "degree": "Master of Science",
-            "university": "University Name", 
-            "href": "",
-            "startDate": "2022", 
-            "endDate": "NOW", 
-            "description": "Short description of your degree."
-        },
-        {
-            "subject": "University Subject",
-            "degree": "Bachelor of Science",
-            "university": "University Name", 
-            "href": "",
-            "startDate": "2017", 
-            "endDate": "2020", 
-            "description": "Short description of your degree."
-        }
-    ],
-    "volunteering": [
-        {
-            "position": "Position Name",
-            "event": "Event Name",
-            "organisation": "Organisation Name",
-            "href": "",
-            "startDate": "2022",
-            "endDate": "NOW",
-            "description": "Short description of your role at the event."
-        },
-        {
-            "position": "Position Name",
-            "event": "Event Name",
-            "organisation": "Organisation Name",
-            "href": "",
-            "startDate": "2022",
-            "endDate": "NOW",
-            "description": "Short description of your role at the event."
-        },
-        {
-            "position": "Position Name",
-            "event": "Event Name",
-            "organisation": "Organisation Name",
-            "href": "",
-            "startDate": "2022",
-            "endDate": "NOW",
-            "description": "Short description of your role at the event."
-        }
-    ],
-    "projects": [
-        {
-            "name": "two-column-portfolio",
-            "framework": "next.js",
-            "description": "A simple two-column portfolio template that is easy and quick to customize for your own purposes. Mobile friendly.",
-            "href": "https://github.com/karlgrossmann/two-column-portfolio",
-            "stars": "0"
-        },
-       {
-            "name": "example-project",
-            "framework": "javascript",
-            "description": "Short description of your project.",
-            "href": "",
-            "stars": "2,712"
-       },
-       {
-        "name": "example-project-2",
-        "framework": "flutter",
-        "description": "Short description of your project.",
-        "href": "",
-        "stars": "1,999"
-        } 
-    ]
+    {
+      "title": "Founder & President",
+      "company": "OctoBit Júnior – USP",
+      "href": "https://octobitjr.com.br",
+      "startDate": "01/2023",
+      "endDate": "CURRENT",
+      "description": "Lead a 25-member junior enterprise delivering web and AI projects for local clients; established agile processes, sales pipelines and mentorship programs.",
+      "logo": "/logos/octobit.png",
+      "skills": ["Leadership", "Project Management", "Agile", "React", "Docker"]
+    },
+    {
+      "title": "Undergraduate Researcher (AI for Digital Dentistry)",
+      "company": "InReDD – Interdisciplinary Research Group in Digital Dentistry",
+      "href": "https://sites.usp.br/inredd",
+      "startDate": "03/2024",
+      "endDate": "CURRENT",
+      "description": "Develop neural-network pipelines for tooth segmentation and clinical-decision support; presented results at SBCAS 2024.",
+      "logo": "/logos/inredd.png",
+      "skills": ["PyTorch", "Computer Vision", "Medical Imaging", "MLOps"]
+    },
+    {
+      "title": "Startup Manager Intern",
+      "company": "FEA Angels",
+      "href": "https://www.feaangels.com.br",
+      "startDate": "05/2023",
+      "endDate": "09/2023",
+      "description": "Managed deal-flow analytics, screened 100+ startups and produced investment memos linking founders with angel investors.",
+      "logo": "/logos/feaangels.png",
+      "skills": ["Data Analysis", "Venture Capital", "SQL", "Market Research"]
+    }
+  ],
+  "education": [
+    {
+      "subject": "Computer Science",
+      "degree": "Bachelor of Science",
+      "university": "University of São Paulo (USP – Ribeirão Preto)",
+      "href": "https://rp.icmc.usp.br/",
+      "startDate": "2022",
+      "endDate": "2026",
+      "description": "Coursework focused on software engineering, machine learning and numerical methods; GPA 3.8/4.0 equivalent."
+    },
+    {
+      "subject": "Computer Science & AI (Exchange)",
+      "degree": "Certificate of English-Medium Studies",
+      "university": "University College London (UCL), United Kingdom",
+      "href": "https://www.ucl.ac.uk",
+      "startDate": "2019",
+      "endDate": "2019",
+      "description": "Semester-long exchange in AI and human-computer interaction; earned UCL Statement of English Proficiency (C1)."
+    }
+  ],
+  "volunteering": [
+    {
+      "position": "Production Coordinator",
+      "event": "USP Music Festival",
+      "organisation": "University of São Paulo Student Union",
+      "href": "",
+      "startDate": "2023",
+      "endDate": "CURRENT",
+      "description": "Coordinate 60 volunteers, manage logistics and stage-tech operations for a 3-day festival (10 000+ attendees)."
+    },
+    {
+      "position": "STEM Mentor",
+      "event": "Girls in Tech Week",
+      "organisation": "IEEE Women in Engineering",
+      "href": "",
+      "startDate": "2022",
+      "endDate": "2022",
+      "description": "Mentored high-school students in Python fundamentals and guided a hackathon project on healthcare data."
+    },
+    {
+      "position": "Teaching Assistant",
+      "event": "Intro to Programming Bootcamp",
+      "organisation": "OctoBit Júnior",
+      "href": "",
+      "startDate": "2021",
+      "endDate": "2021",
+      "description": "Helped 40 freshmen master C basics and debugging practices through hands-on labs."
+    }
+  ],
+  "projects": [
+    {
+      "name": "digital-dentistry-cdss",
+      "framework": "pytorch / monai",
+      "description": "Clinical decision-support pipeline for 3D intraoral scans: segmentation, numbering and restoration detection.",
+      "href": "https://github.com/caiouehara/digital-dentistry-cdss",
+      "stars": "57"
+    },
+    {
+      "name": "octobit-website",
+      "framework": "next.js",
+      "description": "Marketing and client portal for OctoBit Jr., featuring CMS integration and CI/CD on AWS.",
+      "href": "https://github.com/caiouehara/octobit-website",
+      "stars": "18"
+    },
+    {
+      "name": "two-column-portfolio",
+      "framework": "next.js",
+      "description": "A simple two-column portfolio template that is easy and quick to customize for your own purposes. Mobile friendly.",
+      "href": "https://github.com/karlgrossmann/two-column-portfolio",
+      "stars": "0"
+    }
+  ]
 }

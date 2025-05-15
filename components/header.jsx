@@ -8,6 +8,8 @@ const Header = (props) => {
             <div className=''>
                 <h1 className='text-5xl subpixel-antialiased tracking-wide'>{props.data.name}</h1>
                 <h2 className='text-surface-600 pt-2 text-base font-normal tracking-wider'>{props.data.headline}</h2>
+                <h3 className='text-surface-600 pt-2 text-sm font-normal tracking-wider'>{props.data.subheadline}</h3>
+                <h3 className='text-surface-600 pt-2 text-sm font-normal tracking-wider'>{props.data.subsubheadline}</h3>
             </div>
             <Navigation></Navigation>
             <Socials data={props.data.socials}></Socials>

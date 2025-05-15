@@ -5,7 +5,7 @@ import Experiences from "@/components/experiences/experiences";
 import Header from "@/components/header";
 import Volunteering from "@/components/volunteering/volunteering";
 import Projects from '@/components/projects/projects';
-import Credits from '@/components/credits';
+
 import {promises as fs} from 'fs';
 
 export default async function Home() {
@@ -22,7 +22,6 @@ export default async function Home() {
           <Education data={data.education}></Education>
           <Volunteering data={data.volunteering}></Volunteering>
           <Projects data={data.projects}></Projects>
-          <Credits data={data.general}></Credits>
         </div>
       </div>
     </main>
